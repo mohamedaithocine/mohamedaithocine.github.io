@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #35241E;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a:link {
+    text-decoration: none;
+    color: #F1F3F2;
+  }
+
+  a:visited {
+    color: #F1F3F2;
+  }
+
+  a:hover {
+    color: #06418D;
+  }
+
+
+
+#navigation {
+    margin-left: 105px;
+}
+
+#navbar {
+    font-family: Outfit, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #F1F3F2;
+    display: inline-block;
+    margin-top: 91px;
+    margin-left: 16.5625rem;
+}
+
+#title {
+    font-family: Outfit, sans-serif;
+    font-size:296px;
+    font-weight: 700;
+    text-align: center;
+    color: #AA9944;
+    margin-bottom: 0rem;
+    margin-top: 6.25rem;
+    margin-right: 1.5625rem;
+}
+
+#subtitle {
+    font-family: Outfit, sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    color: #EAC598;
+    padding-left: 40.625rem;
+    margin-top: -4.375rem;
+    margin-right: 5.1875rem;
+}
+
+#slogan {
+    font-family: Outfit, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #F1F3F2;
+    text-align: center;
+    margin-top: -40px;
+}
+
+#about-me {
+    margin: 7.5em 6.25em;
+    width: 115.625em;
+    height: 40.625em;
+    padding: 6.25em 0.625em;
+   /* border: 5px solid gray; */
+
+}
+
+#about-me-pic {
+    float: left;
+    width: 45.3125em;
+    margin-left: 11.375em;
+    margin-right: 4.1875em;
+
+}
+
+#about-me-title {
+    font-family: Outfit, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #EAC598;
+}
+
+#about-me-text {
+    font-family: Outfit, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #F1F3F2;
+    inline-size: 49.5625rem;
+   /* border: 5px solid orange;     */
+    margin-left: 59.5rem;
+    margin-right: 22.9375rem;
+    
+
+}
