@@ -24,7 +24,7 @@ a:link {
 
 
 #navigation {
-    margin-left: 105px;
+    margin-left: 6.5625em;
 }
 
 #navbar {
@@ -43,7 +43,7 @@ a:link {
     font-weight: 700;
     text-align: center;
     color: #AA9944;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     margin-top: 6.25rem;
     margin-right: 1.5625rem;
 }
@@ -65,7 +65,7 @@ a:link {
     font-weight: 400;
     color: #F1F3F2;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -2.5rem;
 }
 
 #about-me {
