@@ -13,21 +13,19 @@ body {
 #developing-header {
     font-size: 69px;
     font-weight: 400;
-    position: absolute;
-    bottom: 180px;
-    left: 100px;
+    margin-top: 70vh;
+    margin-left: 5.625rem;
 }
 
 #developing-text {
-    position: absolute;
-    bottom: 120px;
-    left: 100px;
+    margin-top: -3rem;
+    margin-left: 5.625rem;
     font-size: 38px;
     font-weight: 200;
 }
 
 #developing-image {
-    height: 1040px;
+    height: 100vh;
     top: 0;
     right: 0;
     position: absolute;
