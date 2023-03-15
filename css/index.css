@@ -8,16 +8,16 @@
   --text-colour: hsl(150, 8%, 95%);
   --link-hover: hsl(214, 92%, 29%);
   list-style-type: none;
-  --font-pro: 'Inter', sans-serif;
-  --font-mono: 'Space Mono', monospace;
-  --font-compact:'Inter Tight', sans-serif;
+  --font-pro: "Inter", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --font-compact: "Inter Tight", sans-serif;
 }
 
 body {
   margin: 0;
   background-color: var(--bg-colour);
   font-family: Outfit, sans-serif;
-  color: var(--text-colour)
+  color: var(--text-colour);
 }
 
 html {
@@ -46,18 +46,16 @@ a:hover {
   color: var(--link-hover);
 }
 
-
-
 /* HERO AREA */
 
 #grid {
   margin: 0;
   display: grid;
-  height:200vh;
+  height: 200vh;
   grid-template-rows: 1.935% 1.555% 6.66% 14.985% 7.41% 8.54% 1.985% 6.93% 36px 29px 225px 358px 289px;
-                    /*3.87% 3.11% 13.32% 29.97% 14.82% 17.08% 3.97% 13.86%; */
+  /*3.87% 3.11% 13.32% 29.97% 14.82% 17.08% 3.97% 13.86%; */
   grid-template-columns: 16.15% 67.71% 16.15%;
-                    /*16.15% 67.71% 16.15%; */
+  /*16.15% 67.71% 16.15%; */
 }
 
 /* #navigation {
@@ -69,7 +67,7 @@ a:hover {
   justify-content: space-between;
 } */
 
-header{
+header {
   position: fixed;
   height: 85px;
   width: 1920px;
@@ -80,7 +78,7 @@ header{
 
 #navigation {
   position: fixed;
-  grid-area: 2/2;
+  /* grid-area: 2/2; */
   font-size: 24px;
   margin-inline: 310px;
   padding-top: 35.61px;
@@ -89,9 +87,6 @@ header{
   width: 80.2rem;
   justify-content: space-between;
 }
-
-
-
 
 #title {
   margin: 0;
@@ -102,7 +97,6 @@ header{
   /* 14.0625vw;*/
   text-align: center;
   color: var(--title-colour);
-  
 }
 
 #subtitle {
@@ -138,22 +132,18 @@ header{
 #linkedin-icon {
   fill: var(--subtitle-colour);
   grid-area: 8/1;
-  position: fixed ;
+  position: fixed;
   bottom: 30px;
   left: 70px;
 }
 
 #linkedin-icon:hover {
-  fill: var(--link-hover)
+  fill: var(--link-hover);
 }
 
 /* HERO END */
 
-
-
-
 /* ABOUT ME */
-
 
 /* Currently disabled */
 #about-me_navigation {
@@ -164,16 +154,13 @@ header{
   display: flex;
   width: 100%;
   justify-content: space-between;
-  
 }
-
 
 #about-me-desc {
   width: 602px;
   height: 200px;
   display: inline-block;
 }
-
 
 #about-me {
   margin-inline: 111px;
@@ -184,17 +171,14 @@ header{
   font-family: var(--font-mono);
   font-weight: 100;
   display: inline;
-  
 }
 
 #about-me-title {
-  font-size: 30px;
   font-family: var(--font-pro);
   font-weight: 100;
   display: inline;
   color: var(--subtitle-colour);
   margin-right: 10px;
-  
 }
 
 #about-me-line {
@@ -209,17 +193,15 @@ header{
   font-size: 22px;
   width: 602px;
 }
-#cv-hyperlink{
+#cv-hyperlink {
   font-family: var(--font-pro);
   color: var(--subtitle-colour);
   float: right;
 }
 
-
-
 #about-me-pic {
   float: left;
-  width:  358px;
+  width: 358px;
   height: 358px;
   margin-right: 36px;
   border-radius: 30px;
