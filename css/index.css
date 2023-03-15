@@ -1,0 +1,226 @@
+/* General */
+
+:root {
+  margin: 0;
+  --bg-colour: hsl(16, 28%, 16%);
+  --title-colour: hsl(50, 43%, 47%);
+  --subtitle-colour: hsl(33, 66%, 76%);
+  --text-colour: hsl(150, 8%, 95%);
+  --link-hover: hsl(214, 92%, 29%);
+  list-style-type: none;
+  --font-pro: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-compact:'Inter Tight', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-colour);
+  font-family: Outfit, sans-serif;
+  color: var(--text-colour)
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:link {
+  font-family: var(--font-mono);
+  text-decoration: none;
+  color: var(--text-colour);
+}
+
+a:visited {
+  color: var(--text-colour);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+
+
+/* HERO AREA */
+
+#grid {
+  margin: 0;
+  display: grid;
+  height:200vh;
+  grid-template-rows: 1.935% 1.555% 6.66% 14.985% 7.41% 8.54% 1.985% 6.93% 36px 29px 225px 358px 289px;
+                    /*3.87% 3.11% 13.32% 29.97% 14.82% 17.08% 3.97% 13.86%; */
+  grid-template-columns: 16.15% 67.71% 16.15%;
+                    /*16.15% 67.71% 16.15%; */
+}
+
+/* #navigation {
+  grid-area: 2/2;
+  font-size: 24px;
+  margin-inline: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+} */
+
+header{
+  position: fixed;
+  height: 85px;
+  width: 1920px;
+  z-index: 1;
+  background-color: rgba(52, 35, 29, 0.9);
+  backdrop-filter: blur(20px);
+}
+
+#navigation {
+  position: fixed;
+  grid-area: 2/2;
+  font-size: 24px;
+  margin-inline: 310px;
+  padding-top: 35.61px;
+  display: flex;
+  height: 85px;
+  width: 80.2rem;
+  justify-content: space-between;
+}
+
+
+
+
+#title {
+  margin: 0;
+  margin-left: -0.89vw;
+  grid-area: 4/2;
+  font-family: var(--font-pro);
+  font-size: 13.95vw;
+  /* 14.0625vw;*/
+  text-align: center;
+  color: var(--title-colour);
+  
+}
+
+#subtitle {
+  margin: 0;
+  grid-area: 5/2;
+  font-family: var(--font-pro);
+  font-size: 7.03vw;
+  text-align: right;
+  color: var(--subtitle-colour);
+}
+
+#slogan {
+  font-family: var(--font-mono);
+  font-weight: 100;
+  margin: 0;
+  grid-area: 7/2;
+  text-align: center;
+  font-size: 24px;
+}
+
+#github-icon {
+  grid-area: 8/1;
+  stroke: var(--subtitle-colour);
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+#github-icon:hover {
+  stroke: var(--link-hover);
+}
+
+#linkedin-icon {
+  fill: var(--subtitle-colour);
+  grid-area: 8/1;
+  position: fixed ;
+  bottom: 30px;
+  left: 70px;
+}
+
+#linkedin-icon:hover {
+  fill: var(--link-hover)
+}
+
+/* HERO END */
+
+
+
+
+/* ABOUT ME */
+
+
+/* Currently disabled */
+#about-me_navigation {
+  visibility: hidden;
+  grid-area: 10/2;
+  font-size: 24px;
+  margin-inline: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+
+#about-me-desc {
+  width: 602px;
+  height: 200px;
+  display: inline-block;
+}
+
+
+#about-me {
+  margin-inline: 111px;
+  grid-area: 12/2;
+}
+
+#a01 {
+  font-family: var(--font-mono);
+  font-weight: 100;
+  display: inline;
+  
+}
+
+#about-me-title {
+  font-size: 30px;
+  font-family: var(--font-pro);
+  font-weight: 100;
+  display: inline;
+  color: var(--subtitle-colour);
+  margin-right: 10px;
+  
+}
+
+#about-me-line {
+  color: var(--subtitle-colour);
+  display: inline-block;
+  width: 405px;
+}
+
+#about-me-text {
+  display: flex;
+  font-family: var(--font-pro);
+  font-size: 22px;
+  width: 602px;
+}
+#cv-hyperlink{
+  font-family: var(--font-pro);
+  color: var(--subtitle-colour);
+  float: right;
+}
+
+
+
+#about-me-pic {
+  float: left;
+  width:  358px;
+  height: 358px;
+  margin-right: 36px;
+  border-radius: 30px;
+}

@@ -1,0 +1,47 @@
+/* General */
+
+:root {
+    margin: 0;
+    --bg-colour: hsl(16, 28%, 16%);
+    --title-colour: hsl(50, 43%, 47%);
+    --subtitle-colour: hsl(33, 66%, 76%);
+    --text-colour: hsl(150, 8%, 95%);
+    --link-hover: hsl(214, 92%, 29%);
+    list-style-type: none;
+    --font-pro: 'Inter', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    --font-compact:'Inter Tight', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--bg-colour);
+    font-family: Outfit, sans-serif;
+    color: var(--text-colour)
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  a:link {
+    font-family: var(--font-mono);
+    text-decoration: none;
+    color: var(--text-colour);
+  }
+  
+  a:visited {
+    color: var(--text-colour);
+  }
+  
+  a:hover {
+    color: var(--link-hover);
+  }

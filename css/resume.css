@@ -1,0 +1,82 @@
+a:hover {
+    color: #F1F3F2;
+}
+
+a:link {
+    text-decoration: none;
+    color: #F1F3F2;
+}
+
+a:visited {
+    color: #F1F3F2;
+}
+
+body {
+    background-color: #35241E;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+    
+#name {
+    font-size: 38.96px;
+    margin-bottom: 10px;
+}
+
+#header {
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+    color: #F1F3F2;
+}
+
+#icon {
+    filter: invert();
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.education {
+    font-size: 22px;
+    color: #F1F3F2;
+    margin-bottom: -40px;
+}
+
+#education-title {
+    margin-bottom: 0;
+}
+
+#degree {
+    display: inline;
+}
+
+#school {
+    display: inline;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#timeframe {
+    font-weight: 400;
+    position: absolute;
+    right: 8px;
+    margin-top: -30px;
+
+}
+
+#location {
+    font-weight: 400;
+    position: absolute;
+    right: 8px;
+    margin-top: 0;
+    
+}
+
+#description {
+    font-size: 25px;
+    width: 1700px;
+    position: relative;
+    bottom: 25px
+}
+

@@ -11,15 +11,15 @@ html {
 a:link {
     text-decoration: none;
     color: #F1F3F2;
-  }
+}
 
-  a:visited {
-    color: #F1F3F2;
-  }
+a:visited {
+color: #F1F3F2;
+}
 
-  a:hover {
-    color: #06418D;
-  }
+a:hover {
+color: #06418D;
+}
 
 
 #navigation {

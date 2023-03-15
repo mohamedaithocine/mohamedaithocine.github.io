@@ -8,7 +8,19 @@ body {
     font-family: Outfit, sans-serif;
     color: #F1F3F2;
 }
-
+a:link {
+    font-family: Outfit, sans-serif;
+    text-decoration: none;
+    color: #F1F3F2;
+  }
+  
+  a:visited {
+    color: #F1F3F2;
+  }
+  
+  a:hover {
+    color: #F1F3F2;
+  }
 
 #developing-header {
     font-size: 69px;
