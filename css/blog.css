@@ -164,6 +164,7 @@ section {
   width: 350px;  
   color: var(--subtitle-colour);
 }
+
 #post-textbox {
   background-color: hsl(16, 28%, 20%);
   border-radius: 30px;
@@ -183,6 +184,7 @@ section {
   width: 431px;  
   color: var(--subtitle-colour);
 }
+
 time {
   margin-inline: 10px;
   font-family: var(--font-pro);
@@ -192,6 +194,7 @@ time {
   color: var(--subtitle-colour);
   margin-top: 20px;
 }
+
 #time-right-hr {
   display: inline-block;
   width: 45px;  
@@ -214,8 +217,29 @@ time {
   grid-template-columns: 403px 28px 403px 28px 403px;
 }
 
-#post1, #post2, #post3, #post4, #post5, #post6 {
+#post1, #post2, #post3, #post4, #post5, #post6, #post7, #post8, #post9 {
   width: 403px;
   height: 227px;
-  background-color: aliceblue;
+  background-color: hsl(16, 28%, 20%);
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0,0,0,25%);
+}
+
+#post1 {
+  grid-area: 1/1;
+}
+#post2 {
+  grid-area: 1/3;
+}
+#post3 {
+  grid-area: 1/5;
+}
+#post4 {
+  grid-area: 3/1;
+}
+#post5 {
+  grid-area: 3/3;
+}
+#post6 {
+  grid-area: 3/5;
 }
