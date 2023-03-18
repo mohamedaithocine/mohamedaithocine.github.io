@@ -52,11 +52,19 @@ a:hover {
   margin: 0;
   display: grid;
   height: 200vh;
-  grid-template-rows: 1.935% 1.555% 6.66% 14.985% 7.41% 8.54% 1.985% 6.93% 36px 29px 225px 358px 289px;
+  grid-template-rows: 189px 279px 138px 159px 37px 135px 290px 358px 289px;
   /*3.87% 3.11% 13.32% 29.97% 14.82% 17.08% 3.97% 13.86%; */
   grid-template-columns: 16.15% 67.71% 16.15%;
   /*16.15% 67.71% 16.15%; */
 }
+
+/* #grid {
+  margin: 0;
+  display: grid;
+  height: 200vh;
+  grid-template-rows: 1.935% 1.555% 6.66% 14.985% 7.41% 8.54% 1.985% 6.93% 36px 29px 225px 358px 289px;
+  grid-template-columns: 16.15% 67.71% 16.15%;
+} */
 
 /* #navigation {
   grid-area: 2/2;
@@ -70,7 +78,7 @@ a:hover {
 header {
   position: fixed;
   height: 85px;
-  width: 1920px;
+  width: 100vw;
   z-index: 1;
   background-color: rgba(52, 35, 29, 0.9);
   backdrop-filter: blur(20px);
@@ -78,47 +86,47 @@ header {
 
 #navigation {
   position: fixed;
-  /* grid-area: 2/2; */
   font-size: 24px;
-  margin-inline: 310px;
+  margin-inline: 16.15%;
   padding-top: 35.61px;
   display: flex;
   height: 85px;
-  width: 80.2rem;
+  width: 66.5%;
   justify-content: space-between;
 }
 
 #title {
   margin: 0;
   margin-left: -0.89vw;
-  grid-area: 4/2;
+  grid-area: 2/2;
   font-family: var(--font-pro);
   font-size: 13.95vw;
   /* 14.0625vw;*/
   text-align: center;
   color: var(--title-colour);
+  height: fit-content;
 }
 
 #subtitle {
   margin: 0;
-  grid-area: 5/2;
+  grid-area: 3/2;
   font-family: var(--font-pro);
   font-size: 7.03vw;
   text-align: right;
   color: var(--subtitle-colour);
+  height: fit-content;
 }
 
 #slogan {
   font-family: var(--font-mono);
   font-weight: 100;
   margin: 0;
-  grid-area: 7/2;
+  grid-area: 5/2;
   text-align: center;
   font-size: 24px;
 }
 
 #github-icon {
-  grid-area: 8/1;
   stroke: var(--subtitle-colour);
   position: fixed;
   bottom: 30px;
@@ -145,17 +153,6 @@ header {
 
 /* ABOUT ME */
 
-/* Currently disabled */
-#about-me_navigation {
-  visibility: hidden;
-  grid-area: 10/2;
-  font-size: 24px;
-  margin-inline: auto;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
 #about-me-desc {
   width: 602px;
   height: 200px;
@@ -163,8 +160,8 @@ header {
 }
 
 #about-me {
-  margin-inline: 111px;
-  grid-area: 12/2;
+  margin-inline: 5.78vw;
+  grid-area: 8/2;
 }
 
 #a01 {
@@ -201,8 +198,8 @@ header {
 
 #about-me-pic {
   float: left;
-  width: 358px;
-  height: 358px;
+  width: 18.65vw;
+  height: 18.65vw;
   margin-right: 36px;
   border-radius: 30px;
 }
