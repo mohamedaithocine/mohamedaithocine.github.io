@@ -16,7 +16,6 @@
 body {
   margin: 0;
   background-color: var(--bg-colour);
-  font-family: Outfit, sans-serif;
   color: var(--text-colour);
 }
 
