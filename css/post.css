@@ -49,8 +49,8 @@ a:hover {
 #grid {
   margin: 0;
   display: grid;
-  height: 218vh;
-  grid-template-rows: 101px 712px 92px 1030px 83px;
+  height: max-content;
+  grid-template-rows: 101px 712px 92px max-content 83px;
   grid-template-columns: 16.15% 67.71% 16.15%;
 }
 
@@ -91,64 +91,61 @@ h1 {
   margin-bottom: 25px;
 }
 
+
+ /* ARTICLE INFO */
+
 #article-info {
+  width: 100%;
   margin: auto;
   grid-area: 3/2;
 }
 
-#author-left-hr {
-  color: var(--subtitle-colour);
-  height: 0;
-  width: 45px;
-  display: inline-block;
-}
-
 #author {
+  margin-top: -4px;
+  margin-left: 46px;
+  background-color: var(--bg-colour);
+  position: absolute;
   color: var(--subtitle-colour);
   font-family: var(--font-pro);
   font-weight: 100;
   display: inline-block;
-  margin-inline: 10px;
+  padding-inline: 10px;
 }
 
-#author-middle-hr {
+#author-hr {
+  display: block;
   color: var(--subtitle-colour);
   height: 0;
-  display: block;
-  width: 813px;
-  display: inline-block;
+  width: 100%;
 }
 
 #date {
+  margin-top: -22px;
+  margin-left: 58.9%;
+  background-color: var(--bg-colour);
+  position: absolute;
   color: var(--subtitle-colour);
   font-family: var(--font-pro);
   font-weight: 100;
   display: inline-block;
-  width: fit-content;
-  margin-inline: 10px;
+  padding-inline: 10px;
 }
 
-#author-right-hr {
-  color: var(--subtitle-colour);
-  height: 0;
-  display: block;
-  width: 45px;
-  display: inline-block;
-}
+ /* ARTICLE INFO END */
 
 #textbox {
   grid-area: 4;
-  background-color: hsl(15, 28%, 25%);
+  background-color: hsl(15, 28%, 18%);
   width: 1920px;
-  height: 1030px;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  height: fit-content;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 #textbox p {
   margin-inline: auto;
   width: 67.71%;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #footer-hr {

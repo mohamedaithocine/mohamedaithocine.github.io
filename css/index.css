@@ -43,6 +43,7 @@ a:visited {
 }
 
 a:hover {
+  transition: all .1s;
   color: var(--link-hover);
 }
 
@@ -57,23 +58,6 @@ a:hover {
   grid-template-columns: 16.15% 67.71% 16.15%;
   /*16.15% 67.71% 16.15%; */
 }
-
-/* #grid {
-  margin: 0;
-  display: grid;
-  height: 200vh;
-  grid-template-rows: 1.935% 1.555% 6.66% 14.985% 7.41% 8.54% 1.985% 6.93% 36px 29px 225px 358px 289px;
-  grid-template-columns: 16.15% 67.71% 16.15%;
-} */
-
-/* #navigation {
-  grid-area: 2/2;
-  font-size: 24px;
-  margin-inline: auto;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-} */
 
 header {
   position: fixed;
@@ -129,7 +113,7 @@ header {
 #github-icon {
   stroke: var(--subtitle-colour);
   position: fixed;
-  bottom: 30px;
+  bottom: 25px;
   left: 30px;
 }
 
@@ -139,9 +123,8 @@ header {
 
 #linkedin-icon {
   fill: var(--subtitle-colour);
-  grid-area: 8/1;
   position: fixed;
-  bottom: 30px;
+  bottom: 25px;
   left: 70px;
 }
 

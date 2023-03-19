@@ -43,6 +43,7 @@
   }
   
   a:hover {
+    transition: all .1s;
     color: var(--link-hover);
   }
 

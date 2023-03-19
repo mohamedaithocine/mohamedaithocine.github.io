@@ -48,6 +48,7 @@
   }
   
   a:hover {
+    transition: all .1s;
     color: var(--link-hover);
   }
 
@@ -95,6 +96,10 @@ section {
   color: var(--subtitle-colour);
   display: inline-flex;
   margin-right: 10px;
+}
+
+#blog-title:hover {
+  color: var(--link-hover);
 }
 
 #blog-line {
