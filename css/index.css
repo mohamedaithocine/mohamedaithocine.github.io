@@ -52,16 +52,14 @@ a:hover {
 #grid {
   margin: 0;
   display: grid;
-  height: 200vh;
-  grid-template-rows: 189px 279px 138px 159px 37px 135px 290px 358px 289px;
-  /*3.87% 3.11% 13.32% 29.97% 14.82% 17.08% 3.97% 13.86%; */
+  height: 2vw;
+  grid-template-rows: 20.1707577375vh 44.5037353255vh 16.9690501601vh 3.9487726788vh 14.4076840982vh 30.9498399146vh 38.2070437567vh 30.8431163287vh;
   grid-template-columns: 16.15% 67.71% 16.15%;
-  /*16.15% 67.71% 16.15%; */
 }
 
 header {
   position: fixed;
-  height: 85px;
+  height: 5.3125em;
   width: 100vw;
   z-index: 1;
   background-color: rgba(52, 35, 29, 0.9);
@@ -72,9 +70,9 @@ header {
   position: fixed;
   font-size: 24px;
   margin-inline: 16.15%;
-  padding-top: 35.61px;
+  padding-top: 1.48375em;
   display: flex;
-  height: 85px;
+  height: 3.5416666667em;
   width: 66.5%;
   justify-content: space-between;
 }
@@ -84,31 +82,34 @@ header {
   margin-left: -0.89vw;
   grid-area: 2/2;
   font-family: var(--font-pro);
-  font-size: 13.95vw;
-  /* 14.0625vw;*/
   text-align: center;
   color: var(--title-colour);
   height: fit-content;
+  font-size: 8.0625rem;
+  font-size: clamp(8.0625rem, 0.012289156626508202rem + 13.939759036144576vw, 16.74rem);
 }
 
 #subtitle {
   margin: 0;
-  grid-area: 3/2;
+  grid-area: 2/2;
   font-family: var(--font-pro);
-  font-size: 7.03vw;
-  text-align: right;
   color: var(--subtitle-colour);
   height: fit-content;
+  margin-top: 14vw;
+  margin-left: 29.5833333333vw;
+  font-size: 4.0625rem;
+  font-size: clamp(4.0625rem, 0.005156626506024331rem + 7.0257028112449795vw, 8.436rem);
 }
 
 #slogan {
   font-family: var(--font-mono);
   font-weight: 100;
   margin: 0;
-  grid-area: 5/2;
+  grid-area: 4/2;
   text-align: center;
   font-size: 24px;
 }
+
 
 #github-icon {
   stroke: var(--subtitle-colour);
@@ -122,35 +123,75 @@ header {
 }
 
 #linkedin-icon {
-  fill: var(--subtitle-colour);
+  stroke: var(--subtitle-colour);
   position: fixed;
-  bottom: 25px;
+  bottom: 26px;
   left: 70px;
 }
 
 #linkedin-icon:hover {
-  fill: var(--link-hover);
+  stroke: var(--link-hover);
 }
+
+#mail-icon {
+  stroke: var(--subtitle-colour);
+  position: fixed;
+  bottom: 24px;
+  left: 115px;
+}
+
+#mail-icon:hover {
+  stroke: var(--link-hover);
+}
+
+
+#arrow {
+  transform: rotate(0.29turn);
+  position: absolute;
+  bottom: -890px;
+  left: 150px;
+  fill: var(--subtitle-colour);
+}
+
+#contact-me {
+  font-family: var(--font-pro);
+  position: absolute;
+  bottom: -870px;
+  left: 130px;
+  color: var(--subtitle-colour);
+}
+
 
 /* HERO END */
 
 /* ABOUT ME */
 
+#contact {
+  opacity: 0;
+  transition: opacity 230ms;
+}
+
+#contact {
+  opacity: 1;
+}
+
 #about-me-desc {
-  width: 602px;
+  width: 31.3541666667vw;
   height: 200px;
   display: inline-block;
 }
 
 #about-me {
   margin-inline: 5.78vw;
-  grid-area: 8/2;
+  grid-area: 7/2;
 }
 
 #a01 {
   font-family: var(--font-mono);
   font-weight: 100;
   display: inline;
+  font-size: 0.6875rem;
+  font-size: clamp(0.6875rem, -0.06626506024096379rem + 1.3052208835341366vw, 1.5rem);
 }
 
 #about-me-title {
@@ -159,24 +200,31 @@ header {
   display: inline;
   color: var(--subtitle-colour);
   margin-right: 10px;
+  font-size: 0.6875rem;
+  font-size: clamp(0.6875rem, -0.06626506024096379rem + 1.3052208835341366vw, 1.5rem);
 }
+
 
 #about-me-line {
   color: var(--subtitle-colour);
   display: inline-block;
-  width: 405px;
+  width: 71%;
 }
 
 #about-me-text {
+  margin-inline: 0;
   display: flex;
   font-family: var(--font-pro);
-  font-size: 22px;
-  width: 602px;
+  width: 31.3541666667vw;
+  font-size: 0.625rem;
+  font-size: clamp(0.625rem, -0.07078313253012036rem + 1.2048192771084336vw, 1.375rem);
 }
 #cv-hyperlink {
   font-family: var(--font-pro);
   color: var(--subtitle-colour);
   float: right;
+  font-size: 0.5625rem;
+font-size: clamp(0.5625rem, 0.15662650602409645rem + 0.7028112449799195vw, 1rem);
 }
 
 #about-me-pic {
