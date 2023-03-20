@@ -147,18 +147,14 @@ header {
 
 #arrow {
   transform: rotate(0.29turn);
-  position: absolute;
-  bottom: -890px;
-  left: 150px;
   fill: var(--subtitle-colour);
+  margin-left: 20px;
 }
 
 #contact-me {
   font-family: var(--font-pro);
-  position: absolute;
-  bottom: -870px;
-  left: 130px;
   color: var(--subtitle-colour);
+  margin-bottom: 5px;
 }
 
 
@@ -167,6 +163,9 @@ header {
 /* ABOUT ME */
 
 #contact {
+  margin-top: 170px;
+  margin-left: 130px;
+  grid-area: 8/1;
   opacity: 0;
   transition: opacity 230ms;
 }
