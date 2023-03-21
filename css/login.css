@@ -59,7 +59,7 @@ a:hover {
 
 header {
   position: fixed;
-  height: 85px;
+  height: 5.3125rem;
   width: 100vw;
   z-index: 1;
   background-color: rgba(52, 35, 29, 0.9);
@@ -70,17 +70,17 @@ header {
   position: fixed;
   font-size: 24px;
   margin-inline: 16.15%;
-  padding-top: 35.61px;
+  padding-top: 2.225625rem;
   display: flex;
-  height: 85px;
+  height: 5.3125rem;
   width: 66.5%;
   justify-content: space-between;
 }
 
 #login {
   display: grid;
-  grid-template-rows: 52px 52px 52px;
-  width: 326px;
+  grid-template-rows: 3.25rem 3.25rem 3.25rem;
+  width: 20.375rem;
   gap: 10px;
   height: 11.7rem;
   margin-inline: auto;
@@ -92,7 +92,7 @@ header {
 
 label {
   display: inline-flex;
-  padding: 12px;
+  padding: 0.75rem;
   background: hsl(16, 28%, 27%);
   border-radius: 2px;
   border-top-right-radius: 0;
@@ -101,15 +101,15 @@ label {
 
 svg {
   fill: var(--subtitle-colour);
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   display: inline-block;
 }
 
 input {
   color: var(--text-colour);
-  padding: 16px;
-  width: 274px;
+  padding: 1rem;
+  width: 17.125rem;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   background: hsl(16, 28%, 22%);

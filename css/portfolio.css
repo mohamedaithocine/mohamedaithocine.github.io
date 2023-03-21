@@ -51,7 +51,7 @@
   
   header {
     position: fixed;
-    height: 5.3125em;
+    height: 9.0715048026vh;
     width: 100vw;
     z-index: 1;
     background-color: rgba(52, 35, 29, 0.9);
@@ -60,11 +60,11 @@
   
   #navigation {
     position: fixed;
-    font-size: 24px;
+    font-size: 0.75rem;
+    font-size: clamp(0.75rem, 0.05421686746987964rem + 1.2048192771084336vw, 1.5rem);
     margin-inline: 16.15%;
-    padding-top: 1.48375em;
+    padding-top: 3.7359765208vh;
     display: flex;
-    height: 3.5416666667em;
     width: 66.5%;
     justify-content: space-between;
   }
@@ -74,7 +74,7 @@
 /* GRID */
 #grid {
     display: grid;
-    grid-template-rows: 219px 38px 32px 430px 218px;
+    grid-template-rows: 23.3724653148vh 4.0554962647vh 3.4151547492vh 45.8911419424vh 23.2657417289vh;
     grid-template-columns: 16.15% 67.71% 16.15%;
 }
 
@@ -87,55 +87,58 @@ section {
 /* MY PORTFOLIO */
 
 #p02 {
-    margin: 0;
-    font-family: var(--font-mono);
-    font-weight: 100;
-    display: inline-flex;
+  font-family: var(--font-mono);
+  font-weight: 100;
+  display: inline;
+  font-size: 0.6875rem;
+  font-size: clamp(0.6875rem, -0.06626506024096379rem + 1.3052208835341366vw, 1.5rem);
 }
 
 #portfolio-title {
-    margin: 0;
-    font-family: var(--font-pro);
-    font-weight: 100;
-    color: var(--subtitle-colour);
-    display: inline-flex;
-    margin-right: 10px;
+  font-family: var(--font-pro);
+  font-weight: 100;
+  display: inline;
+  color: var(--subtitle-colour);
+  margin-right: 0.625rem;
+  font-size: 0.6875rem;
+  font-size: clamp(0.6875rem, -0.06626506024096379rem + 1.3052208835341366vw, 1.5rem);
 }
 
 #portfolio-line {
     display: inline-block;
     color: var(--subtitle-colour);
-    width: 414px;    
+    width: 21.5625vw;    
+    margin-top: 0.8537886873vh;
+    margin-bottom: 0.8537886873vh;
 }
 
 #projects {
     margin-inline: auto;
     grid-area: 4/2;
-    width: 948px;
-    height: 381px;
+    width: 49.375vw;
+    height: 40.6616862327vh;
     background-color: hsla(16, 28%, 18%, 0.9);
     border-radius: 30px;
-    text-align: center;
+  }
+  
+  #projects p {
+    margin-left: 9.0625vw;
+    padding-top: 14%;
     font-family: var(--font-pro);
-    font-size: 34px;
+    font-size: 1.0625rem;
+    font-size: clamp(1.0625rem, 0.07680722891566283rem + 1.7068273092369475vw, 2.125rem);
     font-weight: 800;
     color: hsla(150, 8%, 95%, 0.2);
-}
-
-#projects p {
-    margin-left: 174px;
-    padding-top: 14%;
     width: fit-content;
     display: inline-block;
 }
 
 #projects img {
-    margin-top: 52px;
-    margin-right: 52px;
-    margin-left: 107px;
+    margin-top: 5.5496264674vh;
+    margin-right: 2.7083333333vw;
     filter: opacity(20%);
-    width: 235px;
-    height: 257px;
+    width: 12.2395833333vw;
+    height: 27.4279615795vh;
     display: inline-flex;
     float: right;
 }
@@ -144,5 +147,6 @@ section {
     grid-area: 5/2;
     text-align: center;
     font-family: var(--font-mono);
-    font-size: 34px;
+    font-size: 0.75rem;
+    font-size: clamp(0.75rem, 0.05421686746987964rem + 1.2048192771084336vw, 1.5rem);
 }

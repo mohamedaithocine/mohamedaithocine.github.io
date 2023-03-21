@@ -50,13 +50,13 @@ a:hover {
   margin: 0;
   display: grid;
   height: max-content;
-  grid-template-rows: 101px 712px 92px max-content 83px;
+  grid-template-rows: 10.7790821772vh 75.9871931697vh 9.8185699039vh max-content 8.8580576307vh;
   grid-template-columns: 16.15% 67.71% 16.15%;
 }
 
 header {
   position: fixed;
-  height: 85px;
+  height: 9.0715048026vh;
   width: 100vw;
   z-index: 2;
   background-color: rgba(52, 35, 29, 0.9);
@@ -65,20 +65,20 @@ header {
 
 #navigation {
   position: fixed;
-  font-size: 24px;
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.05421686746987964rem + 1.2048192771084336vw, 1.5rem);
   margin-inline: 16.15%;
-  padding-top: 35.61px;
+  padding-top: 3.7359765208vh;
   display: flex;
-  height: 85px;
   width: 66.5%;
   justify-content: space-between;
 }
 
 #big-image {
-  width: 1920px;
+  width: 100vw;
   clip-path: inset(896px 0);
   grid-area: 2;
-  margin-top: -183px;
+  margin-top: -19.5304162220vh;
   opacity: 20%;
 }
 
@@ -87,8 +87,9 @@ h1 {
   z-index: 1;
   margin-top: auto;
   font-family: var(--font-pro);
-  font-size: 94px;
-  margin-bottom: 25px;
+  font-size: 2.9375rem;
+  font-size: clamp(2.9375rem, 0.21234939759036164rem + 4.718875502008032vw, 5.875rem);
+  margin-bottom: 2.6680896478vh;
 }
 
 
@@ -101,15 +102,15 @@ h1 {
 }
 
 #author {
-  margin-top: -4px;
-  margin-left: 46px;
+  margin-top: -0.4268943436vh;
+  margin-left: 2.3958333333vw;
   background-color: var(--bg-colour);
   position: absolute;
   color: var(--subtitle-colour);
   font-family: var(--font-pro);
   font-weight: 100;
   display: inline-block;
-  padding-inline: 10px;
+  padding-inline: 0.5208333333vw;
 }
 
 #author-hr {
@@ -120,15 +121,15 @@ h1 {
 }
 
 #date {
-  margin-top: -22px;
-  margin-left: 58.9%;
+  margin-top: -2.3479188901vh;
+  margin-left: 58.9vw;
   background-color: var(--bg-colour);
   position: absolute;
   color: var(--subtitle-colour);
   font-family: var(--font-pro);
   font-weight: 100;
   display: inline-block;
-  padding-inline: 10px;
+  padding-inline: 0.5208333333vw;
 }
 
  /* ARTICLE INFO END */
@@ -136,15 +137,15 @@ h1 {
 #textbox {
   grid-area: 4;
   background-color: hsl(15, 28%, 18%);
-  width: 1920px;
+  width: 100vw;
   height: fit-content;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 2.5613660619vh;
+  padding-bottom: 2.5613660619vh;
 }
 
 #textbox p {
   margin-inline: auto;
-  width: 67.71%;
+  width: 67.71vw;
   font-size: 20px;
 }
 

@@ -53,13 +53,13 @@ a:hover {
   margin: 0;
   display: grid;
   height: 2vw;
-  grid-template-rows: 20.1707577375vh 44.5037353255vh 16.9690501601vh 3.9487726788vh 14.4076840982vh 30.9498399146vh 38.2070437567vh 30.8431163287vh;
+  grid-template-rows: 20.1707577375vh 44.5037353255vh 16.9690501601vh 3.9487726788vh 14.4076840982vh 100vh;
   grid-template-columns: 16.15% 67.71% 16.15%;
 }
 
 header {
   position: fixed;
-  height: 5.3125em;
+  height: 9.0715048026vh;
   width: 100vw;
   z-index: 1;
   background-color: rgba(52, 35, 29, 0.9);
@@ -68,11 +68,11 @@ header {
 
 #navigation {
   position: fixed;
-  font-size: 24px;
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.05421686746987964rem + 1.2048192771084336vw, 1.5rem);
   margin-inline: 16.15%;
-  padding-top: 1.48375em;
+  padding-top: 3.7359765208vh;
   display: flex;
-  height: 3.5416666667em;
   width: 66.5%;
   justify-content: space-between;
 }
@@ -107,15 +107,16 @@ header {
   margin: 0;
   grid-area: 4/2;
   text-align: center;
-  font-size: 24px;
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.05421686746987964rem + 1.2048192771084336vw, 1.5rem);
 }
 
 
 #github-icon {
   stroke: var(--subtitle-colour);
   position: fixed;
-  bottom: 25px;
-  left: 30px;
+  bottom: 1.5625em;
+  left: 1.5625vw;
 }
 
 #github-icon:hover {
@@ -125,8 +126,8 @@ header {
 #linkedin-icon {
   stroke: var(--subtitle-colour);
   position: fixed;
-  bottom: 26px;
-  left: 70px;
+  bottom: 1.625em;
+  left: 3.6458333333vw;
 }
 
 #linkedin-icon:hover {
@@ -136,25 +137,33 @@ header {
 #mail-icon {
   stroke: var(--subtitle-colour);
   position: fixed;
-  bottom: 24px;
-  left: 115px;
+  bottom: 1.5em;
+  left: 5.9895833333vw;
 }
 
 #mail-icon:hover {
   stroke: var(--link-hover);
 }
 
+#github-icon, #linkedin-icon, #mail-icon, #arrow {
+  width: 1.5104166667vw;
+  height: 3.0949839915vh;
+}
+
 
 #arrow {
-  transform: rotate(0.29turn);
+  transform: rotate(0.22turn);
   fill: var(--subtitle-colour);
-  margin-left: 20px;
+  margin-left: 1.45875vw;
+
 }
 
 #contact-me {
   font-family: var(--font-pro);
   color: var(--subtitle-colour);
-  margin-bottom: 5px;
+  margin-bottom: 0.3125em;
+  font-size: 0.5rem;
+  font-size: clamp(0.5rem, 0.03614457831325307rem + 0.8032128514056224vw, 1rem);
 }
 
 
@@ -163,9 +172,9 @@ header {
 /* ABOUT ME */
 
 #contact {
-  margin-top: 170px;
-  margin-left: 130px;
-  grid-area: 8/1;
+  margin-left: 6.7708333333vw;
+  margin-top: 88.5805763074vh;
+  grid-area: 6/1;
   opacity: 0;
   transition: opacity 230ms;
 }
@@ -176,13 +185,14 @@ header {
 
 #about-me-desc {
   width: 31.3541666667vw;
-  height: 200px;
+  height: 12.5em;
   display: inline-block;
 }
 
 #about-me {
   margin-inline: 5.78vw;
-  grid-area: 7/2;
+  grid-area: 6/2;
+  margin-top: 30.9498399146vh;
 }
 
 #a01 {
@@ -198,7 +208,7 @@ header {
   font-weight: 100;
   display: inline;
   color: var(--subtitle-colour);
-  margin-right: 10px;
+  margin-right: 0.625rem;
   font-size: 0.6875rem;
   font-size: clamp(0.6875rem, -0.06626506024096379rem + 1.3052208835341366vw, 1.5rem);
 }
@@ -207,7 +217,7 @@ header {
 #about-me-line {
   color: var(--subtitle-colour);
   display: inline-block;
-  width: 71%;
+  width: 22vw;
 }
 
 #about-me-text {
@@ -230,6 +240,6 @@ font-size: clamp(0.5625rem, 0.15662650602409645rem + 0.7028112449799195vw, 1rem)
   float: left;
   width: 18.65vw;
   height: 18.65vw;
-  margin-right: 36px;
-  border-radius: 30px;
+  margin-right: 2.25em;
+  border-radius: 1.875em;
 }
