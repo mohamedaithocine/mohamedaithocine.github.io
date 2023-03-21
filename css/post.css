@@ -74,9 +74,10 @@ header {
   justify-content: space-between;
 }
 
+
+
 #big-image {
   width: 100vw;
-  clip-path: inset(896px 0);
   grid-area: 2;
   margin-top: -19.5304162220vh;
   opacity: 20%;
@@ -95,14 +96,25 @@ h1 {
 
  /* ARTICLE INFO */
 
+ #clip-alternative-fix {
+  background-color: var(--bg-colour);
+  grid-area: 3/1;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding-right: 100vw;
+ }
+
 #article-info {
   width: 100%;
+  height: 100%;
   margin: auto;
   grid-area: 3/2;
+  z-index: 1;
 }
 
 #author {
-  margin-top: -0.4268943436vh;
+  margin-top: 3.6vh;
   margin-left: 2.3958333333vw;
   background-color: var(--bg-colour);
   position: absolute;
@@ -118,6 +130,7 @@ h1 {
   color: var(--subtitle-colour);
   height: 0;
   width: 100%;
+  margin-top: 2.4vw;
 }
 
 #date {
@@ -141,6 +154,7 @@ h1 {
   height: fit-content;
   padding-top: 2.5613660619vh;
   padding-bottom: 2.5613660619vh;
+  z-index: 1;
 }
 
 #textbox p {
