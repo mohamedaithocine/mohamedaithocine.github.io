@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "90903ba10e811039",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8e558bcceaff851",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5526719208956c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-09-01-roblox-bully-story.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02f9c99416e248d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e453fcb72795e22a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04b73367754620bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1604ab669b08de0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "145bee89835a67ef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b6e4773f57009b36",
+    "type": "split",
+    "children": [
+      {
+        "id": "08a58e813e3a15d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f7a65fac1a52e29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-09-01-roblox-bully-story.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6238eb0b65162273",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-09-01-roblox-bully-story.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f889e5fae944ca6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f60d05ef1e7d285",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-09-01-roblox-bully-story.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a5526719208956c0",
+  "lastOpenFiles": [
+    "template/2024-08-31-bingbong.md",
+    "2024-09-01-roblox-bully-story.md",
+    "Untitled.md",
+    "2024-08-31-bingbong 1.md",
+    "template"
+  ]
+}
