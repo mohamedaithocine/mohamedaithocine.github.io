@@ -61,7 +61,7 @@
             </div>
 
         </div>
-                <section id="projects">
+        <section id="projects">
             <div>
                 <a href="https://github.com/mohamedaithocine/fdm-expenses-app-client">
                     <div class="project">
@@ -124,11 +124,97 @@
                         </div>
                     </div>
                 </a>
+
+                <a href="https://github.com/mohamedaithocine/house-explorer-textgame">
+                    <div class="project">
+                        <hr class="vertical_line">
+                        <div>
+                            <h2>Hackathon Project (UPDATE DESCRIPTION)</h2>
+                            <p class="project_description">A java game project with a graphical user interface created from scratch using JFrame. Connected rooms created by peers to mine to create a house which can be explored.</p>
+                        
+                            <div style="display: flex;">
+                                <p class="programming_language">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mohamedaithocine/house-explorer-textgame">
+                    <div class="project">
+                        <hr class="vertical_line">
+                        <div>
+                            <h2>Blockudoku (UPDATE DESCRIPTION)</h2>
+                            <p class="project_description">A java game project with a graphical user interface created from scratch using JFrame. Connected rooms created by peers to mine to create a house which can be explored.</p>
+                        
+                            <div style="display: flex;">
+                                <p class="programming_language">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mohamedaithocine/house-explorer-textgame">
+                    <div class="project">
+                        <hr class="vertical_line">
+                        <div>
+                            <h2>Hobbies App (UPDATE DESCRIPTION)</h2>
+                            <p class="project_description">A java game project with a graphical user interface created from scratch using JFrame. Connected rooms created by peers to mine to create a house which can be explored.</p>
+                        
+                            <div style="display: flex;">
+                                <p class="programming_language">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mohamedaithocine/house-explorer-textgame">
+                    <div class="project">
+                        <hr class="vertical_line">
+                        <div>
+                            <h2>NNDL Training Thingy (UPDATE DESCRIPTION)</h2>
+                            <p class="project_description">A java game project with a graphical user interface created from scratch using JFrame. Connected rooms created by peers to mine to create a house which can be explored.</p>
+                        
+                            <div style="display: flex;">
+                                <p class="programming_language">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/mohamedaithocine/house-explorer-textgame">
+                    <div class="project">
+                        <hr class="vertical_line">
+                        <div>
+                            <h2>Final Year Project Research (UPDATE DESCRIPTION)</h2>
+                            <p class="project_description">A java game project with a graphical user interface created from scratch using JFrame. Connected rooms created by peers to mine to create a house which can be explored.</p>
+                        
+                            <div style="display: flex;">
+                                <p class="programming_language">Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
+            <a id="all-projects">all projects v</a>
         </section>
     </section>
 
 
     <footer>© 2025 Mohamed Ait-Hocine. All rights reserved.</footer>
+    <script>
+        const projectsSection = document.querySelector('#projects');
+        const allProjectsText = document.querySelector('#all-projects');
+
+        projectsSection.addEventListener('scroll', function () {
+            if (projectsSection.scrollTop > 0) {
+                allProjectsText.style.opacity = '0';
+                allProjectsText.style.pointerEvents = 'none'; // optional: disables click while hidden
+            } else {
+                allProjectsText.style.opacity = '1';
+                allProjectsText.style.pointerEvents = 'auto';
+            }
+        });
+    </script>
+
 </body>
 </html>

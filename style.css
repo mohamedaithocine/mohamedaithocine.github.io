@@ -155,7 +155,7 @@ nav a, #cv-link {
     margin-inline: 0.4rem;
 }
 
-a:hover, #dropdown:hover, #cv-link:hover {
+a:hover, #dropdown:hover, #cv-link:hover, #all-projects:hover {
     color: var(--text);
     cursor: pointer;
 }
@@ -163,14 +163,24 @@ a:hover, #dropdown:hover, #cv-link:hover {
 /* Projects Section */
 
 #projects {
+    position: relative;
     /* margin-bottom: 20rem; */
     display: grid;
     place-items: center;
     /* margin-inline: auto; */
-    padding-block: 10.5rem;
-    height: 88.5rem;
+    /* padding-block: 10.5rem; */
+    height: 44rem;
     width: 84.6rem;
-    /* overflow: scroll; */
+    overflow: scroll;
+}
+
+#all-projects {
+    font-size: 2rem;
+    position: sticky;
+    bottom: 0;
+    left: 84rem;
+    color: var(--link);
+    transition: opacity 0.3s ease;
 }
 
 .project {
