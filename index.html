@@ -25,7 +25,7 @@
     <section id="hero">
 
 
-        <div>
+        <div id="about-me">
             <h1>Mohamed Ait-Hocine</h1>
             <h2>a computer science graduate from Queen Mary University of London</h2>
             
@@ -204,16 +204,43 @@
     <script>
         const projectsSection = document.querySelector('#projects');
         const allProjectsText = document.querySelector('#all-projects');
+        const aboutSection = document.querySelector('#about-me');
+        const heroSection = document.querySelector('#hero');
+
+        let aboutHidden = false;
 
         projectsSection.addEventListener('scroll', function () {
             if (projectsSection.scrollTop > 0) {
                 allProjectsText.style.opacity = '0';
-                allProjectsText.style.pointerEvents = 'none'; // optional: disables click while hidden
-            } else {
+                allProjectsText.style.pointerEvents = 'none';
+            } else if (!aboutHidden) {
                 allProjectsText.style.opacity = '1';
                 allProjectsText.style.pointerEvents = 'auto';
             }
         });
+
+
+        projectsSection.addEventListener('click', function (event) {
+            event.stopPropagation(); // Prevent the click from bubbling to the document
+            heroSection.style.justifyContent = 'center';
+            aboutSection.style.opacity = '0';
+            aboutSection.style.width = '0';
+            allProjectsText.style.opacity = '0';
+            projectsSection.style.height = '66rem';
+            aboutHidden = true;
+        });
+        
+        document.addEventListener('click', function () {
+            if (aboutHidden) {
+                heroSection.style.justifyContent = 'space-evenly';
+                aboutSection.style.width = '44rem';
+                projectsSection.style.height = '44rem';
+                aboutSection.style.opacity = '1';
+                allProjectsText.style.opacity = '1';
+            aboutHidden = false;
+            }
+        });
+
     </script>
 
 </body>
