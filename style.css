@@ -234,3 +234,11 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+
+@media screen and (max-width: 1685px) {
+    html {
+        font-size: 55%;
+    }
+    
+}
